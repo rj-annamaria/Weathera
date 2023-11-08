@@ -1,0 +1,66 @@
+a {
+  color: rgb(63, 59, 59);
+}
+
+div {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.btn-primary {
+  background-color: rgb(247, 247, 130);
+  color: rgb(63, 59, 59);
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.btn-primary:hover {
+  background-color: goldenrod;
+}
+
+.current-city {
+  font-size: 35px;
+  font-weight: 900;
+  margin: 20px;
+}
+.current-details {
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+
+  margin: 20px auto auto 20px;
+}
+
+.current-weather {
+  display: flex;
+}
+
+.current-temperature-icon {
+  position: relative;
+  margin: 40px 20px 80px 50px;
+  font-size: 20px;
+  margin-right: 0px;
+}
+
+.current-temperature {
+  position: relative;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.current-temperature-unit {
+  font-size: 25px;
+  position: relative;
+  top: -25px;
+}
+
+.footer {
+  text-align: center;
+  color: green;
+  background-color: rgb(245, 176, 245);
+  border-radius: 10px;
+  margin: 0px auto 10px auto;
+  max-width: 50%;
+  max-height: 40%;
+}
